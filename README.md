@@ -1,73 +1,134 @@
-# Welcome to your Lovable project
 
-## Project info
+# EventScout College: Campus Event Aggregation Platform
 
-**URL**: https://lovable.dev/projects/fd6f7377-5b90-453c-948b-0e184c6c928b
+<div align="center">
+  <img src="./public/placeholder.svg" alt="EventScout Logo" width="200" />
+  <h3>Find and share college tech events in one place</h3>
+</div>
 
-## How can I edit this code?
+## 📚 About The Project
 
-There are several ways of editing your application.
+EventScout College is a comprehensive web platform that aggregates tech events from college campuses across the country. The platform serves as a central hub for discovering hackathons, tech talks, workshops, and networking events happening at various universities.
 
-**Use Lovable**
+### Features
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/fd6f7377-5b90-453c-948b-0e184c6c928b) and start prompting.
+- **Event Discovery**: Browse upcoming tech events from multiple colleges in one place
+- **Event Submission**: Easily submit new events to the platform with comprehensive details
+- **Advanced Filtering**: Find events by type, college, date range, or search terms
+- **Detailed Event Pages**: View complete event details including dates, locations, descriptions, and registration links
+- **Responsive Design**: Fully optimized for mobile, tablet, and desktop viewing
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🚀 Tech Stack
 
-**Use your preferred IDE**
+This project is built using modern web technologies:
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- **React**: Front-end library for building user interfaces
+- **TypeScript**: Static type checking for improved developer experience
+- **React Router**: For navigation between pages
+- **React Hook Form**: For form validation and submission
+- **Tailwind CSS**: Utility-first CSS framework for styling
+- **Shadcn/UI**: Component library for consistent UI elements
+- **Zod**: Schema validation for form inputs
+- **date-fns**: Comprehensive date utility library
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🏗️ Project Structure
 
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+```
+src/
+├── components/          # Reusable UI components
+├── context/             # React context for state management
+├── data/                # Mock data and data structures
+├── hooks/               # Custom React hooks
+├── lib/                 # Utility libraries
+├── pages/               # Application pages/routes
+└── utils/               # Helper functions
 ```
 
-**Edit a file directly in GitHub**
+## ⚙️ Getting Started
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### Prerequisites
 
-**Use GitHub Codespaces**
+- Node.js (v14.0.0 or later)
+- npm or yarn
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+### Installation
 
-## What technologies are used for this project?
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/yourusername/event-scout-college.git
+   ```
 
-This project is built with:
+2. Navigate to the project directory:
+   ```sh
+   cd event-scout-college
+   ```
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+3. Install dependencies:
+   ```sh
+   npm install
+   # or
+   yarn
+   ```
 
-## How can I deploy this project?
+4. Start the development server:
+   ```sh
+   npm run dev
+   # or
+   yarn dev
+   ```
 
-Simply open [Lovable](https://lovable.dev/projects/fd6f7377-5b90-453c-948b-0e184c6c928b) and click on Share -> Publish.
+5. Open your browser and visit `http://localhost:8080`
 
-## Can I connect a custom domain to my Lovable project?
+## 🖥️ Usage
 
-Yes, you can!
+### Browsing Events
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+- The homepage displays featured and recently submitted events
+- Use the "Explore" page to see all events with filtering options
+- Click on any event card to view detailed information
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+### Submitting Events
+
+1. Click the "Submit Event" button in the navigation bar
+2. Fill out the event details in the form
+3. Submit the form to add your event to the platform
+
+### Filtering Events
+
+Use the filter options to narrow down events by:
+- Event type (hackathon, tech talk, etc.)
+- College/university
+- Date range
+- Search terms
+
+## 🔍 Current Limitations and Future Improvements
+
+This version of EventScout College uses mock data for event information. In a production environment, this would be replaced with:
+
+- **Backend Integration**: Connect to a database for persistent storage
+- **User Authentication**: Allow users to create accounts and save favorite events
+- **Web Scraping**: Automated collection of events from university websites
+- **Email Notifications**: Alert users about upcoming events matching their interests
+- **Calendar Integration**: Add events directly to personal calendars
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 📄 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## 📧 Contact
+
+Project Link: [https://github.com/yourusername/event-scout-college](https://github.com/yourusername/event-scout-college)
+
+---
+
+Made with ❤️ for college students looking to discover educational opportunities
